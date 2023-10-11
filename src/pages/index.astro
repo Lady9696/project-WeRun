@@ -45,7 +45,7 @@ import TapLink from "../components-react/tapLink";
             class="text-[16px] font-UniversExtrablack text-primary text-center lg:text-[30px]"
           >CONOCE LA UBICACIÓN DE NUESTRAS TIENDAS
           </h2>
-          <TapLink options={LINKSTORE}/>
+          <TapLink client:only="react"  options={LINKSTORE}/>
         </div>
       </section>
     </main>
