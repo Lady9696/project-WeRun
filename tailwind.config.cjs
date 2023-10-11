@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: {
         "header-image": "url('/bgeheader.webp')",
         "footer": "url('/footer.webp')",
-        "grande": "url('headerlg.webp')",
+        "grande": "url('gato.webp')",
         "footer-lg":"url('/footer-lg.webp')",
         "prueba":"url('/pruebaheaderlg.webp')"
       },
