@@ -1,15 +1,19 @@
 import { useState } from "react";
+// aquì coloco  que las props serà un array de opciones
 const TapLink = ({ options = [] }) => {
+  // establezco los el estado en null
   const [activeLink, setActiveLink] = useState(null);
+  //cuando el estado sea name , y le de click se va a actualizar a null(se esconde) , y cuando sea null se va actualizar a name (se muestre). 
   const handleSetLink = (name) => ()=> {
     setActiveLink(prev=>prev===name?null:name)
+    
     
 };
   console.log(activeLink, 'aqui');
   return (
-    <section>
+    <div>
       {options?.map((option) => (
-        <article key={option.name, option.arrow}>
+        <article key={option.name}>
           <button onClick={handleSetLink(option.name)} className="bg-slate-500">
             {option.name}
           </button>
@@ -22,7 +26,7 @@ const TapLink = ({ options = [] }) => {
           </div>
         </article>
       ))}
-    </section>
+    </div>
   );
 };
 export default TapLink;
