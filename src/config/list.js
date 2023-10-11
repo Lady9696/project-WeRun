@@ -37,7 +37,7 @@ export const LINKSTORE = [
   { 
     id: "bogota",
     name: "BOGOTÁ",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       {
@@ -88,7 +88,7 @@ export const LINKSTORE = [
   {
     id: "medellin",
     name: "MEDELLÍN",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       {
@@ -120,7 +120,7 @@ export const LINKSTORE = [
   {
     id: "cali",
     name: "CALI",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       {
@@ -146,7 +146,7 @@ export const LINKSTORE = [
   {
     id: "barranquilla",
     name: "BARRANQUILLA",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       {
@@ -159,7 +159,7 @@ export const LINKSTORE = [
   {
     id: "manizales",
     name: "MANIZALES",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       {
@@ -173,7 +173,7 @@ export const LINKSTORE = [
   {
     id: "pereira",
     name: "PEREIRA",
-    src: "wpplogo.svg",
+    src: "arrow.svg",
 
     sublinks: [
       { id: "arboleda",
