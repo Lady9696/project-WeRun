@@ -22,7 +22,7 @@ module.exports = {
         custom: "0px 4px 4px 0px #0000004D",
       },
       screens: {
-        xs: "450px",
+        xs: "428px",
         xxs: "320px",
       },
     },
