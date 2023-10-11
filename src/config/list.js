@@ -34,7 +34,7 @@ export const ICONS = [
 ];
 
 export const LINKSTORE = [
-  {
+  { 
     id: "bogota",
     name: "BOGOTÁ",
     src: "wpplogo.svg",
@@ -87,7 +87,7 @@ export const LINKSTORE = [
 
   {
     id: "medellin",
-    name: " MEDELLÍN",
+    name: "MEDELLÍN",
     src: "wpplogo.svg",
 
     sublinks: [
@@ -144,7 +144,7 @@ export const LINKSTORE = [
     ],
   },
   {
-    id: "BARRANQUILLA",
+    id: "barranquilla",
     name: "BARRANQUILLA",
     src: "wpplogo.svg",
 
@@ -176,7 +176,7 @@ export const LINKSTORE = [
     src: "wpplogo.svg",
 
     sublinks: [
-      {
+      { id: "arboleda",
         name: "Nike Store Arboleda",
         src: "wpplogo.svg",
         link: "https://www.google.com/maps/place/Nike/@4.8075818,-75.6880754,17z/data=!3m1!4b1!4m6!3m5!1s0x8e38873bf583a685:0x9cba41c209640369!8m2!3d4.8075765!4d-75.6838482!16s%2Fg%2F1tfjrrqs?coh=164777&entry=tt&shorturl=1",
