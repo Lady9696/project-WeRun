@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         PalatinoNova: "'Palatino Nova', serif",
         UniversExtrablack: "'Univers Extrablack',serif",
+      
       },
       backgroundImage: {
         "header-image": "url('/bgheader.webp')",
