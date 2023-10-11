@@ -17,8 +17,6 @@ import Unete from "../components-astro/unete.astro";
     <title>Astro</title>
   </head>
   <body>
-   
-
     <header>
       <section
         class="flex-col bg-header-image lg:bg-grande bg-cover bg-no-repeat bg-center h-[60vh] relative items-center justify-center"
@@ -32,19 +30,19 @@ import Unete from "../components-astro/unete.astro";
       </section>
     </header>
     <main class="">
-      <section class="bg-fourth px-[12px] pb-[20px] pt-[50px] ">
+      <section class="bg-fourth px-[12px] pb-[20px] pt-[50px]">
         <div class="w-[100%] lg:w-[100%] xs:w-[90%] max-w-[500px] m-auto">
           <div
-            class="flex max-w-[80%]   m-auto justify-between items-center mb-[28px]"
+            class="flex max-w-[80%] m-auto justify-between items-center mb-[28px]"
           >
             {ICONS.map((icon) => <IconLink src={icon.src} link={icon.link} />)}
           </div>
           <h2
-            class="text-[16px] lg:text-[30px] lg:leading-8 font-UniversExtrablack text-primary text-center leading-4 xs:text-[20px] xs:leading-6 "
+            class="text-[16px] lg:text-[30px] lg:leading-8 font-UniversExtrablack text-primary text-center leading-4 xs:text-[20px] xs:leading-6"
           >
             CONOCE LA UBICACIÓN DE NUESTRAS TIENDAS
           </h2>
-      
+
           <div class="flex justify-center items-center pt-[20px]">
             <TapLink client:only="react" options={LINKSTORE} />
           </div>
@@ -53,7 +51,7 @@ import Unete from "../components-astro/unete.astro";
     </main>
 
     <footer
-      class="flex flex-col bg-footer lg:bg-footer-lg bg-cover bg-no-repeat bg-center h-[60vh] "
+      class="flex flex-col bg-footer lg:bg-footer-lg bg-cover bg-no-repeat bg-center h-[60vh]"
     >
       <Carousel client:only="react" images={IMAGESCAROUSEL} />
       <div
@@ -62,15 +60,15 @@ import Unete from "../components-astro/unete.astro";
         <h2
           class="text-[14px] font-UniversExtrablack text-center text-secondary lg:text-[30px] lg:leading-[50px] leading-[18px] xs:text-[16px]"
         >
-        ¿ERES UN APASIONADO<span class="text-[24px] xs:text-[28px] xs:leading-5 lg:text-[50px]"> POR CORRER?</span> 
+          ¿ERES UN APASIONADO<span
+            class="text-[24px] xs:text-[28px] xs:leading-5 lg:text-[50px]"
+          >
+            POR CORRER?</span
+          >
         </h2>
-        <div class="flex justify-center">
-        
-        </div>
-        <Unete text="¡Únete a nuestra comunidad!"  />
+        <div class="flex justify-center"></div>
+        <Unete text="¡Únete a nuestra comunidad!" />
       </div>
-        
-     
 
       <Carousel client:only="react" images={IMAGESCAROUSEL} />
     </footer>
