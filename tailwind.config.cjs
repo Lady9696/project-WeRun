@@ -9,7 +9,9 @@ module.exports = {
       },
       backgroundImage: {
         "header-image": "url('/bgeheader.webp')",
-        footer: "url('/footer.webp')",
+        "footer": "url('/footer.webp')",
+        "header-lg": "url('header-full.webp')",
+        "footer-lg":"url('/footer-lg.webp')"
       },
 
       colors: {
