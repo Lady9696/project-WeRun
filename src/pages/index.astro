@@ -1,11 +1,10 @@
 ---
 import "../styles.css";
 import Carousel from "../components-react/carousel";
-import { IMAGESCAROUSEL, ICONS, LINKSTORE } from "../config/list";
+import { IMAGESCAROUSEL, ICONS,  } from "../config/list";
 import Button from "../components-astro/button.astro";
 import Spotify from "../components-astro/spotify.astro";
 import IconLink from "../components-astro/iconLink.astro";
-import StoreLink from "../components-astro/storeLink.astro";
 ---
 
 <html lang="en">
@@ -69,11 +68,7 @@ import StoreLink from "../components-astro/storeLink.astro";
         <div
           class="flex flex-col gap-[18px] pt-[28px] text-center w-[80%] text-primary"
         >
-          {
-            LINKSTORE.map((store) => (
-              <StoreLink src={store.src} name={store.name} link={store.link} />
-            ))
-          }
+          
         </div>
       </div>
     </section>

@@ -32,36 +32,149 @@ export const ICONS = [
     link: "https://www.youtube.com/@ProyectoWeRun",
   },
 ];
+//Aqui coloco toda la info
+
+
 export const LINKSTORE = [
+
   {
     name: "Nike Store Bogotá",
     src: "wpplogo.svg",
     link: "https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    arrow: "arrow.svg",
+    sublinks: [
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+    ],
   },
-
   {
-    name: "Nike Store Medellín",
+    name: "Nike Store Bogotá",
     src: "wpplogo.svg",
-    link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    link: "https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    arrow: "arrow.svg",
+    sublinks: [
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+    ],
   },
   {
-    name: "Nike Store Pereira",
+    name: "Nike Store Bogotá",
     src: "wpplogo.svg",
-    link: "https://api.whatsapp.com/send?phone=573134786372&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    link: "https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    arrow: "arrow.svg",
+    sublinks: [
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+    ],
   },
   {
-    name: "Nike Store Panamá",
+    name: "Nike Store Bogotá",
     src: "wpplogo.svg",
-    link: "https://www.sportline.com.pa/marcas/nike.html",
+    link: "https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    arrow: "arrow.svg",
+    sublinks: [
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+    ],
   },
   {
-    name: "Nike Store Guatemala",
+    name: "Nike Store Bogotá",
     src: "wpplogo.svg",
-    link: "https://api.whatsapp.com/send?phone=573134786372&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
-  },
-  {
-    name: "Nike Store Costa Rica",
-    src: "wpplogo.svg",
-    link: "https://www.sportline.cr/marcas/nike.html",
+    link: "https://api.whatsapp.com/send?phone=573212092394&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+    arrow: "arrow.svg",
+    sublinks: [
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+      {
+        name: "Nike Store Medellín",
+        src: "wpplogo.svg",
+        link: "https://api.whatsapp.com/send?phone=573208576389&text=%C2%A1Estoy%20interesado%20en%20productos%20NIKE!",
+      },
+    ],
   },
 ];
