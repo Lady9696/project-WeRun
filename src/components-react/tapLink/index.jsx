@@ -13,7 +13,7 @@ const TapLink = ({ options = [] }) => {
           <button id={option.id} onClick={handleSetLink(option.name)} className=" flex items-center bg-primary font-UniversExtrablack w-full justify-center"> 
           
             {option.name}
-             <img className="absolute top-1/2 transform -translate-y-1/2 right-2" src={option.src}/>
+             <img className={`absolute top-1/2 transform -translate-y-1/2 right-2 ${activeLink === option.name ? 'rotate-180' : ''}`}  src={option.src}/>
           </button>
           <div  className={`flex flex-col  gap-4 transition-all bg-blue-900 rounded-sm overflow-hidden  ${activeLink===option.name ?'max-h-[1000px] delay-200  ease-in-out duration-400':'max-h-0 duration-200'}` }>
             {option?.sublinks.map((sublink) => (
