@@ -10,7 +10,7 @@ const TapLink = ({ options = [] }) => {
     <section>
       {options?.map((option) => (
         <article key={option.name} className="  flex flex-col relative  items-center justify-center  gap-[18px] w-full">
-          <button  key={option.name} id={option.id} onClick={handleSetLink(option.name)} className=" flex items-center relative  bg-primary font-UniversExtrablack w-full justify-center  rounded-full  py-[4px] text-[16px] px-[30px] lg:text-[24px] "> 
+          <button  key={option.name} id={option.id} onClick={handleSetLink(option.name)} className=" flex items-center relative  bg-primary font-UniversExtrablack w-full justify-center  rounded-full  py-[8px] text-[16px] px-[30px] lg:text-[24px] "> 
           
             {option.name}
              <img className={` absolute top-1/2 transform -translate-y-1/2 right-2 ${activeLink === option.name ? 'rotate-180' : ''}`}  src={option.src}/>
