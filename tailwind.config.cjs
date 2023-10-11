@@ -8,7 +8,7 @@ module.exports = {
         UniversExtrablack: "'Univers Extrablack',serif",
       },
       backgroundImage: {
-        "header-image": "url('/bgeheader.webp')",
+        "header-image": "url('/bgheader.webp')",
         "footer": "url('/footer.webp')",
         "grande": "url('gato.webp')",
         "footer-lg":"url('/footer-lg.webp')",
