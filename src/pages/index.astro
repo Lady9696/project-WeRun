@@ -32,17 +32,18 @@ import TapLink from "../components-react/tapLink";
     </header>
     <main class="">
       <section class="bg-fourth px-[12px] pb-[20px] pt-[50px]">
-        <div class="w-[100%] max-w-[450px] m-auto">
+        <div class="w-[100%] xs:w-[90%] max-w-[450px] m-auto">
           <div
             class="flex max-w-[80%] m-auto justify-between items-center mb-[28px]"
           >
             {ICONS.map((icon) => <IconLink src={icon.src} link={icon.link} />)}
           </div>
           <h2
-            class="text-[16px] font-UniversExtrablack text-primary text-center lg:text-[30px] leading-4"
+            class="text-[16px] font-UniversExtrablack text-primary text-center lg:text-[30px] leading-4 xs:text-[20px] xs:leading-6 "
           >
             CONOCE LA UBICACIÓN DE NUESTRAS TIENDAS
           </h2>
+      
           <div class="flex justify-center items-center pt-[20px]">
             <TapLink client:only="react" options={LINKSTORE} />
           </div>
@@ -51,21 +52,21 @@ import TapLink from "../components-react/tapLink";
     </main>
 
     <footer
-      class="flex flex-col bg-footer bg-cover bg-no-repeat bg-center h-[60vh]"
+      class="flex flex-col bg-footer bg-cover bg-no-repeat bg-center h-[60vh] "
     >
       <Carousel client:only="react" images={IMAGESCAROUSEL} />
       <div
-        class="flex flex-col flex-1 justify-center items-center w-[100%] max-w-[600px] px-[40px] m-auto  "
+        class="flex flex-col flex-1 justify-center items-center w-[100%] xs:w-[90%] max-w-[600px] px-[40px] m-auto gap-1"
       >
         <h2
-          class="text-[14px] font-UniversExtrablack text-center text-secondary lg:text-[40px] lg:leading-[40px] leading-[18px]"
+          class="text-[14px] font-UniversExtrablack text-center text-secondary lg:text-[40px] lg:leading-[40px] leading-[18px] xs:text-[16px]"
         >
-        ¿ERES UN APASIONADO<span class="text-[24px]"> POR CORRER?</span> 
+        ¿ERES UN APASIONADO<span class="text-[24px] xs:text-[28px] xs:leading-5"> POR CORRER?</span> 
         </h2>
         <div class="flex justify-center">
         
         </div>
-        <Button text="¡¡Únete a nuestra comunidad!" />
+        <Button text="¡Únete a nuestra comunidad!" />
       </div>
         
      
