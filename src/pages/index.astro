@@ -55,14 +55,20 @@ import TapLink from "../components-react/tapLink";
     >
       <Carousel client:only="react" images={IMAGESCAROUSEL} />
       <div
-        class="flex flex-1 justify-center items-center w-[100%] max-w-[600px] px-[40px] m-auto bg-green-300 "
+        class="flex flex-col flex-1 justify-center items-center w-[100%] max-w-[600px] px-[40px] m-auto  "
       >
         <h2
-          class="text-[14px] font-UniversExtrablack text-center text-secondary lg:text-[40px] lg:leading-[40px]"
+          class="text-[14px] font-UniversExtrablack text-center text-secondary lg:text-[40px] lg:leading-[40px] leading-[18px]"
         >
-        ¿ERES UN APASIONADO<span class="text-[24px]">POR CORRER?</span> 
+        ¿ERES UN APASIONADO<span class="text-[24px]"> POR CORRER?</span> 
         </h2>
+        <div class="flex justify-center">
+        
+        </div>
+        <Button text="¡¡Únete a nuestra comunidad!" />
       </div>
+        
+     
 
       <Carousel client:only="react" images={IMAGESCAROUSEL} />
     </footer>
