@@ -178,18 +178,5 @@ export const LINKSTORE = [
       },
     ],
   },
-  {
-    id: "pereira",
-    name: "PEREIRA",
-    src: "arrow.svg",
-    src2:"arrow-down.svg",
-
-    sublinks: [
-      { id: "per-arboleda",
-        name: "Nike Store Arboleda",
-        src: "wpplogo.svg",
-        link: "https://www.google.com/maps/place/Nike/@4.8075818,-75.6880754,17z/data=!3m1!4b1!4m6!3m5!1s0x8e38873bf583a685:0x9cba41c209640369!8m2!3d4.8075765!4d-75.6838482!16s%2Fg%2F1tfjrrqs?coh=164777&entry=tt&shorturl=1",
-      },
-    ],
-  },
+  
 ];
